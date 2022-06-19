@@ -1,6 +1,6 @@
 {
   "name": "Blockia",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Convert Website to Desktop application",
   "main": "main.js",
   "scripts": {
