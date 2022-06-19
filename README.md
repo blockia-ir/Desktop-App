@@ -7,7 +7,9 @@ Desktop app for Blockia
 
 # Installation
 Download Node Js On System
+
 Extrat Blockia Desktop On Folder
+
 Go To Folder
 ```bash
 npm install
