@@ -1,9 +1,5 @@
 # Blockia Desktop
-Desktop app for Blockia
-
-شروع رایگان و آسان با بلوکیا !
-
-آزمون ساز رایگان و آنلاین برای مدرسه ها ، دانشگاه ها و مراکز آموزشی دیگر با بیشترین امکانات
+Desktop app for website
 
 # Installation
 Download Node Js On System
