@@ -1,4 +1,4 @@
-# Blockia Desktop
+# Desktop App
 Desktop app for website
 
 # Installation
