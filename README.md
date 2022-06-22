@@ -48,15 +48,22 @@ On your project folder open config.js file. Change websiteUrl value.
 // Main Application URL
 'websiteUrl' : 'https://blockia.ir/admin',
 ```
+
 # Change application Name
 First, you need to change the name attribute of the package.json file in the application root directory .
 ```bash
 "name": "Blockia",
 ```
+Next, modify config.js file appName value.
+```bash
+'appName' : 'Blockia',
+```
+
 # Hide elements by ID
 ```bash
 'hideElementsId' : ['id_1', 'id_2', 'id_3'],
 ```
+
 # Hide elements by Class
 ```bash
 'hideElementsClass' : ['class_1', 'class_2', 'class_3'],
