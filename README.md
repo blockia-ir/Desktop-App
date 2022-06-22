@@ -64,6 +64,21 @@ First you need to change the application root directory package.json description
 "description": "Convert Website to a Desktop application",
 ```
 
+# Application Icon change
+All application Icons are located in the build folder. Replace images using the same name.
+```bash
+macOS
+Optional icon.icns (macOS app icon) or icon.png. Icon size should be at least 512x512.
+```
+```bash
+Windows
+Optional icon.ico (Windows app icon) or icon.png. Icon size should be at least 256x256.
+```
+```bash
+Linux
+Linux icon sets will be generated automatically based on the macOS icons file or common icon.png.
+```
+
 # Hide elements by ID
 ```bash
 'hideElementsId' : ['id_1', 'id_2', 'id_3'],
