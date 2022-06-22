@@ -40,7 +40,7 @@ $ electron-builder --linux
 Built output applications are located in the newly created directory called “dist” which is inside your application directory.
 
 # Documentation
-الان وقتشه که راهنمای تغییرات را ببینید و کار شما آسان تر شود
+Now is the time to look at the change guide and make your job easier. Please follow us and give this project a star.
 
 # Change application URL
 On your project folder open config.js file. Change websiteUrl value.
