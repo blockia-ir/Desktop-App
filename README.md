@@ -45,8 +45,13 @@ Built output applications are located in the newly created directory called “d
 # Change application URL
 On your project folder open config.js file. Change websiteUrl value.
 ```bash
-//Main Application URL
+// Main Application URL
 'websiteUrl' : 'https://blockia.ir/admin',
+```
+# Change application Name
+First, you need to change the name attribute of the package.json file in the application root directory .
+```bash
+"name": "Blockia",
 ```
 # Hide elements by ID
 ```bash
