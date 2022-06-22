@@ -38,3 +38,15 @@ $ electron-builder --linux
 ```
 
 Built output applications are located in the newly created directory called “dist” which is inside your application directory.
+
+# Documentation
+الان وقتشه که راهنمای تغییرات را ببینید و کار شما آسان تر شود
+
+# Hide elements by ID
+```bash
+'hideElementsId' : ['id_1', 'id_2', 'id_3'],
+```
+# Hide elements by Class
+```bash
+'hideElementsClass' : ['class_1', 'class_2', 'class_3'],
+```
