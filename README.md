@@ -42,6 +42,12 @@ Built output applications are located in the newly created directory called “d
 # Documentation
 الان وقتشه که راهنمای تغییرات را ببینید و کار شما آسان تر شود
 
+# Change application URL
+On your project folder open config.js file. Change websiteUrl value.
+```bash
+//Main Application URL
+'websiteUrl' : 'https://blockia.ir/admin',
+```
 # Hide elements by ID
 ```bash
 'hideElementsId' : ['id_1', 'id_2', 'id_3'],
