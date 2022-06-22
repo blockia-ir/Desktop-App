@@ -44,24 +44,24 @@ Now is the time to look at the change guide and make your job easier. Please fol
 
 # Change application URL
 On your project folder open config.js file. Change websiteUrl value.
-```bash
+```javascript
 // Main Application URL
 'websiteUrl' : 'https://blockia.ir/admin',
 ```
 
 # Change application Name
 First, you need to change the name attribute of the package.json file in the application root directory .
-```bash
+```javascript
 "name": "Blockia",
 ```
 Next, modify config.js file appName value.
-```bash
+```javascript
 'appName' : 'Blockia',
 ```
 
 # Change application description
 First you need to change the application root directory package.json description attribute.
-```bash
+```javascript
 "description": "Convert Website to a Desktop application",
 ```
 
@@ -90,11 +90,11 @@ Right menu – right-menu-config.js
 ```
 
 # Hide elements by ID
-```bash
+```javascript
 'hideElementsId' : ['id_1', 'id_2', 'id_3'],
 ```
 
 # Hide elements by Class
-```bash
+```javascript
 'hideElementsClass' : ['class_1', 'class_2', 'class_3'],
 ```
