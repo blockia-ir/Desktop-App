@@ -58,6 +58,11 @@ Next, modify config.js file appName value.
 ```bash
 'appName' : 'Blockia',
 ```
+# Change application description
+First you need to change the application root directory package.json description attribute.
+```bash
+"description": "Convert Website to a Desktop application",
+```
 
 # Hide elements by ID
 ```bash
