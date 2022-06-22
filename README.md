@@ -58,6 +58,7 @@ Next, modify config.js file appName value.
 ```bash
 'appName' : 'Blockia',
 ```
+
 # Change application description
 First you need to change the application root directory package.json description attribute.
 ```bash
@@ -77,6 +78,15 @@ Optional icon.ico (Windows app icon) or icon.png. Icon size should be at least 2
 ```bash
 Linux
 Linux icon sets will be generated automatically based on the macOS icons file or common icon.png.
+```
+
+# Customize the Main / Right menu
+There are two menu types
+```bash
+Main application menu – menu-config.js
+```
+```bash
+Right menu – right-menu-config.js
 ```
 
 # Hide elements by ID
