@@ -89,6 +89,9 @@ Main application menu – menu-config.js
 Right menu – right-menu-config.js
 ```
 
+#Hide website elements
+Give a native look to your application. You can hide your website elements as you prefer. To do this, open config.js file.
+Next, you can add your class or id value separated by comma.
 # Hide elements by ID
 ```javascript
 'hideElementsId' : ['id_1', 'id_2', 'id_3'],
