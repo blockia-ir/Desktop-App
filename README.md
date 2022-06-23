@@ -1,16 +1,16 @@
+
 # Desktop App
-Desktop app for website
+Desktop app for the website
 
 # Installation
-Download Node Js On System
+You must install Node.js and clone the project:  
+`git clone https://github.com/blockia-ir/Desktop-App`
 
-Extrat Blockia Desktop On Folder
-
-Go To Folder
+Then install the requirements by running:
 ```bash
 npm install
 ```
- for run test app :
+And for running it, you can enter this command:
  ```bash
 npm start
 ```
@@ -43,14 +43,14 @@ Built output applications are located in the newly created directory called “d
 Now is the time to look at the change guide and make your job easier. Please follow us and give this project a star.
 
 # Change application URL
-On your project folder open config.js file. Change websiteUrl value.
+On your project folder, open config.js file and change `websiteUrl` value:
 ```javascript
 // Main Application URL
 'websiteUrl' : 'https://blockia.ir/admin',
 ```
 
 # Change application Name
-First, you need to change the name attribute of the package.json file in the application root directory .
+First, you need to change the name attribute of the package.json file in the application root directory.
 ```javascript
 "name": "Blockia",
 ```
@@ -80,7 +80,7 @@ Linux
 Linux icon sets will be generated automatically based on the macOS icons file or common icon.png.
 ```
 
-# Customize the Main / Right menu
+# Customize the main/right menu
 There are two menu types
 ```bash
 Main application menu – menu-config.js
@@ -93,6 +93,7 @@ Right menu – right-menu-config.js
 # Hide website elements
 Give a native look to your application. You can hide your website elements as you prefer. To do this, open config.js file.
 Next, you can add your class or id value separated by comma.
+
 # Hide elements by ID
 ```javascript
 'hideElementsId' : ['id_1', 'id_2', 'id_3'],
